@@ -10,7 +10,14 @@ parts:
   # maxdepth: 8
   numbered: true
   chapters:
-
+  - file: Project/My project/_Project.md
+    title: My project
+    sections:
+    - file: Project/My project/RFM/RFM
+      title: RFM model
+      sections: 
+      - file: Project/My project/RFM/RFM/ Test.ipynb
+        title: RFM
   # - file: contents/Framework/_index.md
   #   title: Framework
   #   sections:
